@@ -5,6 +5,10 @@ import com.ayhanunal.quizapp.model.Question
 
 object Constants {
 
+    const val USER_NAME: String = "user_name"
+    const val TOTAL_QUESTIONS: String = "total_question"
+    const val CORRECT_ANSWERS: String = "correct_answers"
+
     fun getQuestions(): ArrayList<Question>{
         val questionsList = ArrayList<Question>()
 
@@ -63,7 +67,7 @@ object Constants {
             6, "What country does this flag belong to?",
             R.drawable.ic_flag_of_germany,
             "Germany", "Georgia",
-            "Greece", "none of these", 1
+            "Greece", "Spain", 1
         )
 
         questionsList.add(que6)
